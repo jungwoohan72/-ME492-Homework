@@ -1,0 +1,5 @@
+<launch>
+ <node pkg="hw3" type="hw3_publisher" name="Node1"/>
+ <node pkg="hw3" type="hw3_subscriber" name="Node2"/>
+ <node pkg="hw3" type="hw3_subscriber_1" name="Node3"/>
+</launch>

@@ -1,0 +1,16 @@
+1. build file one by one.
+g++ -c -o main.o main.cpp
+g++ -c -o cal.o cal.cpp
+g++ -o cal cal.o main.o
+
+2. build with make
+make
+
+make -p -f Makefile_1 | grep CXX
+(to check the macros used in makefiles)
+
+
+3. build with cmake
+cmake .
+make
+

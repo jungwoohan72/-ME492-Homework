@@ -1,0 +1,20 @@
+#CXX             = g++
+#CXXFLAGS		= -save-temps
+SRCS            = $(wildcard *.cpp)
+OBJS            = $(SRCS:.cpp=.o) # cal.cpp main.cpp
+TARGET          = cal			  # cal.o main.o
+
+#.SILENT:
+
+all : $(TARGET)
+
+
+$(TARGET) : $(OBJS)
+	$(CXX) -o $(TARGET) $(OBJS)
+
+#$(OBJS) : $(SRCS)
+#	$(CXX) -c $(SRCS)
+
+clean :
+	rm -f $(TARGET)
+	rm -f *.o
