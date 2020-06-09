@@ -10,13 +10,13 @@
 
 3. Perform LU-decomposition.
 
-4. Return eigenvalue and eigenvercor of user-input matrix.
+4. Return eigenvalue and eigenvercor of user-input matrix. 
 
 **ROS_communication:**
 
 Basic ROS communication between three nodes.
 
-**Image_processing**
+**Image_processing:**
 
 1. Play rosbag file.
 
@@ -26,6 +26,6 @@ Basic ROS communication between three nodes.
 
 4. Convert the subscribed image into grayscale and publish it to another topic.
 
-**Lidar_Odometry**
+**Lidar_Odometry:**
 
 Deduce current robot pose compared to initial pose, using pcl library and iterative closest point algorithm.
