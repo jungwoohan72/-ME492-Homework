@@ -12,8 +12,6 @@ cal:
 
 4. Return eigenvalue and eigenvercor of user-input matrix
 
-
-
 ROS_communication:
 
-Basic ros communication between three nodes
+Basic ROS communication between three nodes.
